@@ -76,15 +76,7 @@
     </a>
   </div>
   
-  <div class="row justify-content-center">
-    <div class="col-md-8">
-      <div class="card shadow-sm">
-        <div class="card-body p-4">
-          <form action="" method="post" class="form-container">
-            <div class="mb-3">
-              <label for="name" class="form-label">Employee Name</label>
-              <input type="text" class="form-control" id="name" name="name" value="<?php echo $employee['name']; ?>" required>
-            </div>
+
             
             <div class="mb-3">
               <label for="email" class="form-label">Email Address</label>
